@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cout<<"Enter three number:";
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    a>b&&a>c?cout<<a<<" is the largest number":b>c?cout<<b<<" is the largest numbwer"
+    :cout<<c<<" is the largest number";
+    return 0;
+}
